@@ -3,7 +3,7 @@ html {
   margin: 0;
 	padding: 0;
 	min-width: 1000px;
-  font-family: Arial;
+  font-family: Arial, Verdana, Tahoma, sans-serif;
   font-size: 16px;
 }
 
@@ -17,7 +17,6 @@ body {
 ::before {
   box-sizing: inherit;
 }
-
 
 a {
   text-decoration: none;

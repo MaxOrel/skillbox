@@ -1,14 +1,23 @@
 @import "./setup/variables";
 @import "./setup/mixins";
 @import "./setup/setup";
-@import "./setup/layout";
-
+@import "./setup/helpers";
+//blocks
 @import "./blocks/fixed-container";
+@import "./blocks/central-container";
+@import "./blocks/status-bar";
+@import "./blocks/datetime";
 @import "./blocks/header";
-@import "./blocks/list";
 @import "./blocks/logo";
-@import "./blocks/news-item";
+@import "./blocks/city-link";
 @import "./blocks/navigation";
+@import "./blocks/list";
+@import "./blocks/news-item";
 @import "./blocks/column-left";
+@import "./blocks/column-right";
+@import "./blocks/column-center";
+@import "./blocks/special-news";
 @import "./blocks/weather";
 @import "./blocks/search";
+@import "./blocks/main-title";
+

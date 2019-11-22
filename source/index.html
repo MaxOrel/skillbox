@@ -7,15 +7,16 @@
 </head>
 
 <body>
-  <div id="black-bar">
+  <div class="status-bar">
     <div class="fixed-container">
       Самые <a href="#">свежие новости</a> в реальном времени
-      <div id="datetime">12:30 19.06.2018</div>
+      <div class="datetime">12:30 19.06.2018</div>
     </div>
   </div>
   <header class="header" id="header">
     <div class="header__top fixed-container">
       <img class="logo" id="logo" src="img/logo.png">
+      <a href="#" class="city-link" area-label="Определение региональности">Москва</a>
       <div class="weather">
         <span class="weather__icon weather__icon_cloudy"></span>
         <span class="weather__forecast">+22 °С</span>
@@ -41,54 +42,86 @@
       </nav>
     </div>
   </header>
-  <main id="central-container">
+  <main class="central-container">
     <div class="fixed-container ">
-      <aside id="column-left" class="column-left">
-        <h2 class="column-left__title">Новости дня</h2>
+      <aside class="column-left" class="column-left">
+        <h2 class="main-title">Новости дня</h2>
         <article class="news-item">
-          <div class="news-item-text">
+          <h3 class="news-item__text">
             Кот Ахилл предсказал победу российской сборной над Египтом на ЧМ-2018
-          </div>
-          <div class="news-item-props">
-            <a href="#">/ЧМ по футболу</a>
-            <div class="news-time">10:45</div>
-            <div class="news-comments-count">17</div>
+          </h3>
+          <div class="news-item__props">
+            <a class="news-item__category" href="#">/ЧМ по футболу</a>
+            <div class="news-item__time">10:45</div>
+            <div class="news-item__comments-count">17</div>
           </div>
         </article>
         <article class="news-item">
-          <div class="news-item-text">
+          <h3 class="news-item__text">
             Кот Ахилл предсказал победу российской сборной над Египтом на ЧМ-2018
-          </div>
-          <div class="news-item-props">
-            <a href="#">/ЧМ по футболу</a>
-            <div class="news-time">10:45</div>
-            <div class="news-comments-count">17</div>
+          </h3>
+          <div class="news-item__props">
+            <a class="news-item__category" href="#">/ЧМ по футболу</a>
+            <div class="news-item__time">10:45</div>
+            <div class="news-item__comments-count">17</div>
           </div>
         </article>
         <article class="news-item">
-          <div class="news-item-text">
+          <h3 class="news-item__text">
             Кот Ахилл предсказал победу российской сборной над Египтом на ЧМ-2018
-          </div>
-          <div class="news-item-props">
-            <a href="#">/ЧМ по футболу</a>
-            <div class="news-time">10:45</div>
-            <div class="news-comments-count">17</div>
+          </h3>
+          <div class="news-item__props">
+            <a class="news-item__category" href="#">/ЧМ по футболу</a>
+            <div class="news-item__time">10:45</div>
+            <div class="news-item__comments-count">17</div>
           </div>
         </article>
       </aside>
-      <section id="column-center">
-        <h2 class="section-title"></h2>
-        Текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст
-        текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст
-        текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст
+      <section class="column-center">
+        <h2 class="visually-hidden">Главный блок с новостями</h2>
+        <article class="news-item news-item_size_big">
+          <picture>
+            <source srcset="img/crimea_our@2x.jpg 2x, img/crimea_our.jpg 1x">
+            <img class="news-item__img" src="img/crimea_our.jpg" alt="">
+          </picture>
+          <a class="news-item__category" href="#">/Политика</a>
+          <h3 class="news-item__text">
+              В Крыму отреагировали на&nbsp;слова Кравчука о возврате полуострова
+          </h3>
+          <div class="news-item__props">
+            <div class="news-item__date">19 Июня 2018</div>
+            <div class="news-item__time">10:45</div>
+          </div>
+        </article>
+        <article class="news-item">
+            <h3 class="news-item__text">
+              Кот Ахилл предсказал победу российской сборной над Египтом на ЧМ-2018
+            </h3>
+            <div class="news-item__props">
+              <a class="news-item__category" href="#">/ЧМ по футболу</a>
+              <div class="news-item__time">10:45</div>
+              <div class="news-item__comments-count">17</div>
+            </div>
+          </article>
+          <article class="news-item">
+              <h3 class="news-item__text">
+                Кот Ахилл предсказал победу российской сборной над Египтом на ЧМ-2018
+              </h3>
+              <div class="news-item__props">
+                <a class="news-item__category" href="#">/ЧМ по футболу</a>
+                <div class="news-item__time">10:45</div>
+                <div class="news-item__comments-count">17</div>
+              </div>
+            </article>
+
       </section>
-      <aside id="column-right">
+      <aside class="column-right">
         <img src="img/banner-1.png" alt="Рекламный баннер Lexus NX">
         <img src="img/banner-2.png" alt="Рекламный баннер фитнесс клуба ">
       </aside>
     </div>
     <div class="fixed-container">
-      <div id="special-news">
+      <div class="special-news">
         Текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст
         текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст
         текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст
