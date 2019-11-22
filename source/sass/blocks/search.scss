@@ -1,0 +1,18 @@
+.search{
+  margin-left:47px ;
+  position: relative;
+  min-width: 320px;
+}
+.search__input{
+  width: 100%;
+  background-color: #ebebeb;
+  padding: 16px 21px 15px;
+  border-radius: 23px;
+  opacity: 0.6;
+  border: 1px solid transparent;
+  outline: none;
+  &:focus, &:hover{
+    border: 1px solid #00122f;
+  }
+}
+

@@ -1,0 +1,21 @@
+.weather {
+  margin-left: auto;
+  color: #91919f;
+  font-weight: 400;
+}
+
+.weather__icon {
+  display: inline-block;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 5px;
+}
+
+.weather__icon_cloudy {
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url(../img/cloudy.svg);
+  width: 29px;
+  height: 21px;
+}
