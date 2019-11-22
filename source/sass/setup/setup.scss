@@ -1,0 +1,24 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+	padding: 0;
+	min-width: 1000px;
+	font-family: Arial;
+}
+
+body {
+  width: auto;
+  margin: 0;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+
+a {
+  text-decoration: none;
+}
+
