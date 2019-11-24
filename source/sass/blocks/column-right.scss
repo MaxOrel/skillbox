@@ -4,5 +4,9 @@
 }
 
 .column-right img {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
+  display: block;
+}
+.column-right img:last-child{
+  margin-bottom: 0;
 }

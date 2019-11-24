@@ -4,7 +4,9 @@
   margin: 0;
   padding: 0;
 }
-
+.navigation__item{
+  letter-spacing: -0.1px;
+}
 .navigation__item:after{
 content: "/";
 display: inline-block;
@@ -17,8 +19,12 @@ opacity: 0.3;
   display: none;
   }
 .navigation__link {
-  color: #000000;
+  color: inherit;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.42;
+}
+
+.navigation__list_second .navigation__item::after{
+display: none;
 }
