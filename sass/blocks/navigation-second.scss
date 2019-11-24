@@ -1,0 +1,29 @@
+.navigation-second {
+  display: flex;
+}
+
+.navigation-second__list {
+  margin: 0;
+  padding: 0;
+  margin-right: 60px;
+}
+
+.navigation-second__list:last-of-type {
+  margin-right: 0;
+}
+
+.navigation-second__list_padding {
+  padding-left: 40px;
+}
+
+.navigation-second__item {
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+.navigation-second__link {
+  color: inherit;
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  line-height: 20px;
+}
