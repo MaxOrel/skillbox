@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 
 <head>
   <title>Новостное агентство</title>
@@ -16,18 +16,18 @@
   <header class="header" id="header">
     <div class="header__top fixed-container">
       <div class="logo">
-        <img class="logo__img" id="logo" src="img/logo.svg">
+        <img class="logo__img" src="img/logo.svg" alt="Логотип компании">
         <span class="logo__text">Новостное агентство</span>
       </div>
 
-      <a href="#" class="city-link" area-label="Определение региональности">Москва</a>
+      <a href="#" class="city-link" aria-label="Определение региональности">Москва</a>
       <div class="weather">
         <span class="weather__icon weather__icon_cloudy"></span>
         <span class="weather__forecast">+22 °С</span>
       </div>
-      <form action="" method="get" class="search">
+      <form action="#" method="get" class="search">
         <input class="search__input" type="text" name="search" placeholder="Поиск по сайту">
-        <button class="search__button" area-label="Начать поиск"></button>
+        <button class="search__button" aria-label="Начать поиск"></button>
       </form>
     </div>
     <div class="header__menu fixed-container">
@@ -48,11 +48,12 @@
   </header>
   <main class="central-container">
     <div class="fixed-container ">
-      <aside class="column-left" class="column-left">
+      <aside class="column-left">
         <h2 class="main-title">Новости дня</h2>
         <article class="news-item">
           <h3 class="news-item__text">
-            Кот Ахилл предсказал победу российской сборной над Египтом на ЧМ-2018
+            <a class="news-item__link" href="#">Кот Ахилл предсказал победу российской сборной над Египтом на
+              ЧМ-2018</a>
           </h3>
           <div class="news-item__props">
             <a class="news-item__category" href="#">/ЧМ по футболу</a>
@@ -62,7 +63,8 @@
         </article>
         <article class="news-item">
           <h3 class="news-item__text">
-            Кот Ахилл предсказал победу российской сборной над Египтом на ЧМ-2018
+            <a class="news-item__link" href="#">Кот Ахилл предсказал победу российской сборной над Египтом на
+              ЧМ-2018</a>
           </h3>
           <div class="news-item__props">
             <a class="news-item__category" href="#">/ЧМ по футболу</a>
@@ -72,7 +74,8 @@
         </article>
         <article class="news-item">
           <h3 class="news-item__text">
-            Кот Ахилл предсказал победу российской сборной над Египтом на ЧМ-2018
+            <a class="news-item__link" href="#">Кот Ахилл предсказал победу российской сборной над Египтом на ЧМ-2018
+            </a>
           </h3>
           <div class="news-item__props">
             <a class="news-item__category" href="#">/ЧМ по футболу</a>
@@ -82,7 +85,8 @@
         </article>
         <article class="news-item">
           <h3 class="news-item__text">
-            Кот Ахилл предсказал победу российской сборной над Египтом на ЧМ-2018
+            <a class="news-item__link" href="#">Кот Ахилл предсказал победу российской сборной над Египтом на ЧМ-2018
+            </a>
           </h3>
           <div class="news-item__props">
             <a class="news-item__category" href="#">/ЧМ по футболу</a>
@@ -92,7 +96,8 @@
         </article>
         <article class="news-item">
           <h3 class="news-item__text">
-            Кот Ахилл предсказал победу российской сборной над Египтом на ЧМ-2018
+            <a class="news-item__link" href="#">Кот Ахилл предсказал победу российской сборной над Египтом на ЧМ-2018
+            </a>
           </h3>
           <div class="news-item__props">
             <a class="news-item__category" href="#">/ЧМ по футболу</a>
@@ -102,7 +107,8 @@
         </article>
         <article class="news-item">
           <h3 class="news-item__text">
-            Кот Ахилл предсказал победу российской сборной над Египтом на ЧМ-2018
+            <a class="news-item__link" href="#">Кот Ахилл предсказал победу российской сборной над Египтом на ЧМ-2018
+            </a>
           </h3>
           <div class="news-item__props">
             <a class="news-item__category" href="#">/ЧМ по футболу</a>
@@ -124,7 +130,9 @@
             </picture>
             <a class="news-item__category" href="#">/Политика</a>
             <h3 class="news-item__text">
-              В Крыму отреагировали на&nbsp;слова Кравчука о&nbsp;возврате полуострова
+              <a class="news-item__link" href="#">В Крыму отреагировали на&nbsp;слова Кравчука о&nbsp;возврате
+                полуострова
+              </a>
             </h3>
             <div class="news-item__props">
               <div class="news-item__date">19 Июня 2018</div>
@@ -135,7 +143,7 @@
         <article class="news-item news-item_col_two">
           <img src="./img/fake_news_1.jpg" alt="Фото фейковой новости" class="news-item__image">
           <h3 class="news-item__text news-item__text_bold">
-            Алексей Навальный объявил акцию против пенсионной реформы 1 июля
+            <a class="news-item__link" href="#">Алексей Навальный объявил акцию против пенсионной реформы 1 июля</a>
           </h3>
           <div class="news-item__props">
             <a class="news-item__category" href="#">/ Политика</a>
@@ -146,7 +154,7 @@
         <article class="news-item news-item_col_two">
           <img src="./img/fake_news_2.jpg" alt="Фото фейковой новости" class="news-item__image">
           <h3 class="news-item__text news-item__text_bold">
-            Дума увеличила пошлины за выдачу загранпаспортов и водительских прав
+            <a class="news-item__link" href="#">Дума увеличила пошлины за выдачу загранпаспортов и водительских прав</a>
           </h3>
           <div class="news-item__props">
             <a class="news-item__category" href="#">/ Общество</a>
@@ -157,7 +165,7 @@
         <article class="news-item news-item_col_two">
           <img src="./img/fake_news_3.jpg" alt="Фото фейковой новости" class="news-item__image">
           <h3 class="news-item__text news-item__text_bold">
-            В России заработал стриминговый сервис YouTube
+            <a class="news-item__link" href="#">В России заработал стриминговый сервис YouTube</a>
           </h3>
           <div class="news-item__props">
             <a class="news-item__category" href="#">/ Интернет</a>
@@ -168,7 +176,7 @@
         <article class="news-item news-item_col_two">
           <img src="./img/fake_news_4.jpg" alt="Фото фейковой новости" class="news-item__image">
           <h3 class="news-item__text news-item__text_bold">
-            Кейн признан лучшим игроком матча ЧМ-2018 Тунис — Англия
+            <a class="news-item__link" href="#">Кейн признан лучшим игроком матча ЧМ-2018 Тунис — Англия</a>
           </h3>
           <div class="news-item__props">
             <a class="news-item__category" href="#">/ Политика</a>
@@ -193,7 +201,7 @@
 
             <a class="news-item__category" href="#">/Политика</a>
             <h3 class="news-item__text">
-              Пекин обвинил Вашингтон в&nbsp;развязывании торговой<br />войны
+              <a class="news-item__link" href="#">Пекин обвинил Вашингтон в&nbsp;развязывании торговой<br />войны</a>
             </h3>
             <div class="news-item__props">
               <div class="news-item__date">19 Июня 2018</div>
@@ -209,7 +217,8 @@
           <h2 class="main-title">Самые читаемые новости</h2>
           <article class="news-item news-item_type_special">
             <h3 class="news-item__text news-item__text_size_middle news-item__text_bold">
-              В Турции пообещали найти альтернативу из-за отказа США поставить F-35
+              <a class="news-item__link" href="#">В Турции пообещали найти альтернативу из-за отказа США поставить
+                F-35</a>
             </h3>
             <div class="news-item__props">
               <a class="news-item__category" href="#">/ Политика</a>
@@ -219,7 +228,7 @@
           </article>
           <article class="news-item news-item_type_special">
             <h3 class="news-item__text news-item__text_size_middle news-item__text_bold">
-              Назван минимальный доход для причисления к&nbsp;среднему классу‍
+              <a class="news-item__link" href="#">Назван минимальный доход для причисления к&nbsp;среднему классу‍</a>
             </h3>
             <div class="news-item__props">
               <a class="news-item__category" href="#">/ Общество</a>
@@ -229,7 +238,7 @@
           </article>
           <article class="news-item news-item_type_special">
             <h3 class="news-item__text news-item__text_size_middle news-item__text_bold">
-              Назван минимальный доход для причисления к&nbsp;среднему классу‍
+              <a class="news-item__link" href="#">Назван минимальный доход для причисления к&nbsp;среднему классу‍</a>
             </h3>
             <div class="news-item__props">
               <a class="news-item__category" href="#">/ Интернет</a>
@@ -253,58 +262,62 @@
             <li class="navigation-second__item"><a href="#" class="navigation-second__link">В мире</a></li>
           </ul>
           <ul class="navigation-second__list">
-          <li class="navigation-second__item"><a href="#" class="navigation-second__link">Проишествия</a></li>
-          <li class="navigation-second__item"><a href="#" class="navigation-second__link">Спорт</a></li>
-          <li class="navigation-second__item"><a href="#" class="navigation-second__link">Наука</a></li>
-          <li class="navigation-second__item"><a href="#" class="navigation-second__link">Туризм</a></li>
-        </ul>
+            <li class="navigation-second__item"><a href="#" class="navigation-second__link">Проишествия</a></li>
+            <li class="navigation-second__item"><a href="#" class="navigation-second__link">Спорт</a></li>
+            <li class="navigation-second__item"><a href="#" class="navigation-second__link">Наука</a></li>
+            <li class="navigation-second__item"><a href="#" class="navigation-second__link">Туризм</a></li>
+          </ul>
         </nav>
       </div>
       <div class="footer__center">
         <div class="footer_logo logo">
-          <img class="logo__img" id="logo" src="img/logo.svg">
+          <img class="logo__img" src="img/logo.svg" alt="Логотип компании">
           <span class="logo__text">Новостное агентство</span>
         </div>
         <nav class="navigation-second">
-            <ul class="navigation-second__list navigation-second__list_padding">
-              <li class="navigation-second__item"><a href="#" class="navigation-second__link">Об агенстве</a></li>
-              <li class="navigation-second__item"><a href="#" class="navigation-second__link">Контакты</a></li>
-              <li class="navigation-second__item"><a href="#" class="navigation-second__link">Опубликовать новость</a></li>
-            </ul>
-          </nav>
+          <ul class="navigation-second__list navigation-second__list_padding">
+            <li class="navigation-second__item"><a href="#" class="navigation-second__link">Об агенстве</a></li>
+            <li class="navigation-second__item"><a href="#" class="navigation-second__link">Контакты</a></li>
+            <li class="navigation-second__item"><a href="#" class="navigation-second__link">Опубликовать новость</a>
+            </li>
+          </ul>
+        </nav>
       </div>
       <div class="footer__right">
         <ul class="footer__socials socials">
-          <li class="sosials__item">
-            <a href="#" class="sosials__link" area-label="Перейти в нашу группу в Вконтакте">
-              <img class="sosials__icon" src="./img/vk.svg" alt="Логотип Вконтакте">
+          <li class="socials__item">
+            <a href="#" class="socials__link" aria-label="Перейти в нашу группу в Вконтакте">
+              <img class="socials__icon" src="./img/vk.svg" alt="Логотип Вконтакте">
             </a>
           </li>
-          <li class="sosials__item">
-            <a href="#" class="sosials__link" area-label="Перейти в нашу группу в Facebook">
-                <img class="sosials__icon" src="./img/facebook-logo.svg" alt="Логотип Вконтакте">
+          <li class="socials__item">
+            <a href="#" class="socials__link" aria-label="Перейти в нашу группу в Facebook">
+              <img class="socials__icon" src="./img/facebook-logo.svg" alt="Логотип Facebook">
             </a>
           </li>
-          <li class="sosials__item">
-            <a href="#" class="sosials__link" area-label="Прочитать наш Twitter">
-                <img class="sosials__icon" src="./img/instagram.svg" alt="Логотип Вконтакте">
+          <li class="socials__item">
+            <a href="#" class="socials__link" aria-label="Прочитать наш Twitter">
+              <img class="socials__icon" src="./img/twitter-logo.svg" alt="Логотип Twitter">
             </a>
           </li>
-          <li class="sosials__item">
-            <a href="#" class="sosials__link" area-label="Переход в наш Instagram">
-                <img class="sosials__icon" src="./img/twitter-logo.svg" alt="Логотип Вконтакте">
+          <li class="socials__item">
+            <a href="#" class="socials__link" aria-label="Переход в наш Instagram">
+              <img class="socials__icon" src="./img/instagram.svg" alt="Логотип Instagram">
             </a>
           </li>
         </ul>
-        <span class="contacts">
+        <div class="contacts">
           <span class="contacts__element contacts__element_phone">
-            <a href="tel:74999955555">+7 (499) 995-55-55</a>
+            <a class="contacts__link" href="tel:74999955555">+7 (499) 995-55-55</a>
           </span>
           <span class="contacts__element contacts__element_email">
-            <a href="mailto:info@agency.ru">info@agency.ru</a>
+            <a class="contacts__link" href="mailto:info@agency.ru">info@agency.ru</a>
           </span>
         </div>
       </div>
+    </div>
+    <div class="footer__copyright">
+      © Новостное агентство, 2017-2018 все права защищены
     </div>
   </footer>
 </body>

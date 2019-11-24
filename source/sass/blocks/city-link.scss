@@ -1,12 +1,13 @@
-.city-link{
+.city-link {
   color: #448ccb;
   border-bottom: 1px dashed #448ccb;
   font-size: 16px;
   position: relative;
-  &::after{
+
+  &::after {
     content: "";
     display: inline-block;
-    background-image: url(../img/down-arrow.svg);
+    background-image: url("../img/down-arrow.svg");
     background-repeat: no-repeat;
     background-position: center;
     width: 28px;

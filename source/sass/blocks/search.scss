@@ -1,9 +1,10 @@
-.search{
-  margin-left:43px ;
+.search {
+  margin-left: 43px;
   position: relative;
   min-width: 320px;
 }
-.search__input{
+
+.search__input {
   width: 100%;
   background-color: #ebebeb;
   padding: 16px 21px 15px;
@@ -11,27 +12,32 @@
   opacity: 0.6;
   border: 1px solid transparent;
   outline: none;
-  &:focus, &:hover{
+
+  &:focus,
+  &:hover {
     border: 1px solid #00122f;
   }
 }
-.search__button{
-  position:absolute;
+
+.search__button {
+  position: absolute;
   right: 20px;
   top: 50%;
   transform: translateY(-50%);
   border: none;
   background-color: transparent;
-  background-image: url(../img/search.svg);
+  background-image: url("../img/search.svg");
   width: 16px;
   height: 16px;
   cursor: pointer;
   opacity: 0.6;
   outline: none;
-  &:hover{
+
+  &:hover {
     opacity: 1;
   }
-  &:focus{
+
+  &:focus {
     opacity: 1;
   }
 }

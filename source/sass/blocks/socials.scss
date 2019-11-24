@@ -1,0 +1,30 @@
+.socials {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 44px;
+}
+
+.socials__item {
+  width: 40px;
+  height: 40px;
+  list-style: none;
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  position: relative;
+  margin-left: 16px;
+}
+
+.socials__item:first-of-type {
+  margin-left: 0;
+}
+
+.socials__icon {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

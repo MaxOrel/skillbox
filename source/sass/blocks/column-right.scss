@@ -1,12 +1,13 @@
 .column-right {
-	width: 250px;
-	float: right;
+  width: 250px;
+  float: right;
 }
 
 .column-right img {
   margin-bottom: 20px;
   display: block;
 }
-.column-right img:last-child{
+
+.column-right img:last-child {
   margin-bottom: 0;
 }
